@@ -168,10 +168,12 @@
           welcomeText = `Great ${name}, we are looking forward to seeing you and ${namePlusOne} on February 4th!`;
           inviteaccepted = true;
           button.textContent = welcomeText;
+          button.disabled = true;
         } else {
           welcomeText = `We are looking forward to seeing you on February 4th, ${name}`;
           inviteaccepted = true;
           button.textContent = welcomeText;
+          button.disabled = true;
         }
       }
       button.addEventListener("click", getRSVPinfo);
