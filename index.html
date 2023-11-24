@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200&display=swap" rel="stylesheet">
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Wedding Invite</title>
-  <style>
-    body {
-      font-family: 'Montserrat', sans-serif;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      background-color: #ebe6cb;
-    }
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wedding Invite</title>
+    <style>
+      body {
+        font-family: "Montserrat", sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #ebe6cb;
+      }
 
-     button {
+      button {
         display: block;
         margin: 10px auto 10px auto;
         padding: 15px 20px;
@@ -31,130 +34,147 @@
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
         transition: all 200ms ease-in-out;
       }
-      button:hover{
+      button:hover {
         color: #a6b19b;
-        background: linear-gradient(90deg, rgba(139, 171, 108, 0.5)25%, rgba(234, 247, 222, 0.5) 45%, rgba(124, 156, 95, 0.5)25%, 70%); 
+        background: linear-gradient(
+          90deg,
+          rgba(139, 171, 108, 0.5) 25%,
+          rgba(234, 247, 222, 0.5) 45%,
+          rgba(124, 156, 95, 0.5) 25%,
+          70%
+        );
         cursor: pointer;
         border-color: #9eae8e;
         margin-bottom: 0px;
         margin-top: 0px;
       }
-      a{
+      a {
         color: #99b080;
         text-decoration: none;
       }
-      a:hover{
+      a:hover {
         text-decoration: underline;
         color: #748562;
       }
 
-      hr{
+      hr {
         width: 60%;
         margin-bottom: 13px;
       }
 
-    .container {
-      display: flex;
-      max-width: 1000px;
-      width: 100%;
-      border: 3px solid #92b17d;
-      border-radius: 4px;
-      overflow: hidden;
-      background-color: whitesmoke;
-    }
+      .container {
+        display: flex;
+        max-width: 1000px;
+        width: 100%;
+        border: 3px solid #92b17d;
+        border-radius: 4px;
+        overflow: hidden;
+        background-color: whitesmoke;
+      }
 
-    .image {
-      flex: 1;
-      background: url("images/engagement.jpg") no-repeat center;
-      background-size: cover;
-      background-position: 65%;
-    }
+      .image {
+        flex: 1;
+        background: url("images/engagement.jpg") no-repeat center;
+        background-size: cover;
+        background-position: 65%;
+      }
 
-    .text {
-      flex: 1;
-      padding: 50px;
-      color: #748562;
-    }
+      .text {
+        flex: 1;
+        padding: 50px;
+        color: #748562;
+      }
 
-    .text h1 {
-      font-weight: bold;
-      font-size: 30px;
-      margin-top: 0px 0px;
-      text-align: center;
-    }
+      .text h1 {
+        font-weight: bold;
+        font-size: 30px;
+        margin-top: 0px 0px;
+        text-align: center;
+      }
 
-    .text h2 {
-      color: #c4905c;
-      font-size: 25px;
-      margin-top: 5px;
-      text-align: center;
-    }
+      .text h2 {
+        color: #c4905c;
+        font-size: 25px;
+        margin-top: 5px;
+        text-align: center;
+      }
 
-    .text p {
-      color: #99b080;
-      font-weight: bold;
-      font-style: italic;
-      padding-bottom: 5px;
-      margin-top: 0px;
-      
-    }
+      .text p {
+        color: #99b080;
+        font-weight: bold;
+        font-style: italic;
+        padding-bottom: 5px;
+        margin-top: 0px;
+      }
 
-      .details{
+      .details {
         display: block;
         line-height: 20px;
         text-align: center;
         margin-bottom: 0px;
         padding-bottom: 0px;
       }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <div class="image"></div>
-    <div class="text">
-      <h1>You've been invited to the wedding of</h1> <hr>
-      <h2>Cheyen and Anna</h2>
-      <p>
-        <em>You're cordially invited to celebrate the union of these two highschool sweethearts as they exchange vows and begin their new life journey together.<br><br>
-        <span class="details"> Date: February 4th, 2022<br>
-        Time: 7:30 PM<br>
-        <a href="https://www.google.com/maps/place/Dominicuskerk/@52.3770631,4.8907347,17z/data=!3m1!4b1!4m6!3m5!1s0x47c609c7d76c2bc7:0x2d8c3776049abed1!8m2!3d52.3770599!4d4.8933096!16s%2Fg%2F122sm9p2?entry=ttu" target="_blank">Location: Dominicuskerk, Amsterdam</a></span><br>
-        Your presence will add joy to this special occasion. Join us in commemorating love, laughter, and a lifetime of happiness.<br>
-        <br>
-        Please RSVP by December 31st to ensure we reserve a place for you.<br>
-        <br> With love,
-        <br> Cheyen & Anna </em>
-      </p>
-      <button class="btn"> RSVP </button>
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image"></div>
+      <div class="text">
+        <h1>You've been invited to the wedding of</h1>
+        <hr />
+        <h2>Cheyen and Anna</h2>
+        <p>
+          <em
+            >You're cordially invited to celebrate the union of these two
+            highschool sweethearts as they exchange vows and begin their new
+            life journey together.<br /><br />
+            <span class="details">
+              Date: February 4th, 2022<br />
+              Time: 7:30 PM<br />
+              <a
+                href="https://www.google.com/maps/place/Dominicuskerk/@52.3770631,4.8907347,17z/data=!3m1!4b1!4m6!3m5!1s0x47c609c7d76c2bc7:0x2d8c3776049abed1!8m2!3d52.3770599!4d4.8933096!16s%2Fg%2F122sm9p2?entry=ttu"
+                target="_blank"
+                >Location: Dominicuskerk, Amsterdam</a
+              ></span
+            ><br />
+            Your presence will add joy to this special occasion. Join us in
+            commemorating love, laughter, and a lifetime of happiness.<br />
+            <br />
+            Please RSVP by December 31st to ensure we reserve a place for
+            you.<br />
+            <br />
+            With love, <br />
+            Cheyen & Anna
+          </em>
+        </p>
+        <button class="btn">RSVP</button>
+      </div>
     </div>
-  </div>
-  <script>
-  
-  let welcomeText = "RSVP"
+    <script>
+      let welcomeText = "RSVP";
 
-  let button = document.querySelector(".btn");
+      let button = document.querySelector(".btn");
 
-  function getRSVPinfo() {
-  let name = prompt("What is your name?");
-  alert(`We can't wait to celebrate with you, ${name}!`)
-  let plusOne = prompt("Are you bringing a plus one")
-  let inviteaccepted = false;
-  
-  plusOne = plusOne.toLowerCase().trim();
+      function getRSVPinfo() {
+        let name = prompt("What is your name?");
+        alert(`We can't wait to celebrate with you, ${name}!`);
+        let plusOne = prompt("Are you bringing a plus one");
+        let inviteaccepted = false;
 
-  if (plusOne === "yes"){
-  let namePlusOne = prompt("What is the name of your plus one?")
-  welcomeText = `Great ${name}, we are looking forward to seeing you and ${namePlusOne} on February 4th!`
-  inviteaccepted = true;
-  button.textContent = welcomeText;
- }
- else{
-  welcomeText = `We are looking forward to seeing you on February 4th, ${name}`
-  inviteaccepted = true;
-  button.textContent = welcomeText;
- }
-}
-  button.addEventListener("click", getRSVPinfo);
-  </script>
-</body>
+        plusOne = plusOne.toLowerCase().trim();
+
+        if (plusOne === "yes") {
+          let namePlusOne = prompt("What is the name of your plus one?");
+          welcomeText = `Great ${name}, we are looking forward to seeing you and ${namePlusOne} on February 4th!`;
+          inviteaccepted = true;
+          button.textContent = welcomeText;
+        } else {
+          welcomeText = `We are looking forward to seeing you on February 4th, ${name}`;
+          inviteaccepted = true;
+          button.textContent = welcomeText;
+        }
+      }
+      button.addEventListener("click", getRSVPinfo);
+    </script>
+  </body>
 </html>
